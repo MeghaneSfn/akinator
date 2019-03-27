@@ -13,3 +13,129 @@
  *= require_tree .
  *= require_self
  */
+
+/*#bloc_page
+{
+	display: flex;
+	justify-content: space-between;
+}*/
+
+/*body
+{
+	
+}
+
+{
+	font-size: medium;
+	font-family: Georgia,Trebuchet MS, "Arial Black",Arial,Times New Roman, Verdana;
+}
+h1
+{
+	font-size: xx-large;
+	text-align: center;
+	color: teal;
+	text-shadow: 4px 4px 10px teal;*/
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	color: #E5BE45;
+	text-decoration: blink;
+	text-transform: uppercase;
+}
+
+body {
+	background-color: #9FC2CD;
+	color: white;
+	font-size: 45px;
+	text-align: center;
+}
+
+h2 {
+	color: blue;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.genie {
+	height: 450px;
+}
+.time {
+	font-size: 20px;
+	color: ;
+
+}
+
+.container {
+	text-align: center;
+}
+
+.article {
+	colot: white;
+}
+
+.smiley {
+	align-items: center;
+}
+
+.rep {
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+.wrapper {
+	background-size: cover;
+	background-position: center;
+	opacity: 50%;
+}
+
+.wall {
+	background-size: cover;
+	background-position: center;
+	opacity: 50%;
+	height: 100vh;
+}	
+
+.pop {
+	background-size: cover;
+	background-position: cover;
+	opacity: 50%;
+	height: 100vh;
+}
+
+
+.genie{
+    align-items: right;
+}
+
+.yes {
+	background-color: #74CCA4; 
+	color: black;
+}
+
+.no {
+	background-color: #CC8974;
+	color: black;
+}
+.ask{
+	align-items: center;
+}
+
+.edition {
+	background-size: cover;
+	backgroung-position: center;
+	opacity: 50%;
+	display: flex;
+}
+
+p {
+	font-family: Comic sans MS, Arial, Verdana,  sans-serif;
+	color: white;
+}
+
+
+.banner {
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}

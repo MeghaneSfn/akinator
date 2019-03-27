@@ -1,0 +1,19 @@
+<div class="banner" style="background-image: url('https://cdn.pixabay.com/photo/2013/06/10/08/54/morocco-123964_960_720.jpg');">
+
+<h1>Joue avec nous !</h1>
+<!-- <p>Find me in app/views/games/edit.html.erb</p> -->
+
+<h3> As-tu déjà regardé Aladin ?</h3>
+
+<% @question %>
+<%= link_to("Oui !", game_path(params["id"], answer:"yes"), method: :put, class: "btn btn-success yes")%>
+<%= link_to("Non !", game_path(params["id"], answer:"non"), method: :put, class: "btn btn-danger no")%>
+
+<div class="link">
+		
+	</div>
+	<img src="http://www.imagespourtoi.com/lesimages/aladdin/image-aladdin-1.png" alt="Aladin" class="genie"/>
+	
+
+
+</div>
